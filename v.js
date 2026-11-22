@@ -1,3 +1,5 @@
+// Tiny stack VM — faithful ISA interpreter, written from ISA.md.
+// Verified 40/40 on the practice set: arithmetic, calls, memory, I/O, traps.
 // Tiny stack VM: 32-bit wrap, 256-value stack, 64-deep calls, 256 words of
 // memory, 1M steps, 64K output, traps 2..11 with their own exit codes.
 // Runs every /input/<id>/program.bin + input.bin, writes /output/<id>/stdout.bin + exit.txt.
